@@ -1,0 +1,722 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 1366px;
+	height: 650px;
+    color: #F9FBFD;
+	background-color: blue;
+	background: url(img/header.png);
+}
+
+.header-top{
+	padding-top: 35px;
+}
+
+.logo{
+	margin-left: 103px;
+}
+
+nav{
+	position: absolute;
+	top: 48px;
+	margin-left: 702px
+}
+
+nav a{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	align-items: center;
+	color: #F9FBFD;
+	text-decoration: none;
+	padding-right: 33px;
+}
+
+.header-bottom{
+	position: absolute;
+	width: 636px;
+	height: 39px;
+	left: 198px;
+	top: 283px;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	align-items: center;
+	color: #F9FBFD;
+}
+
+.header-bottom h1{
+	font-weight: bold;
+	font-size: 54px;
+}
+
+.penguins{
+	position: absolute;
+	width: 560px;
+	height: 301px;
+	left: 703px;
+	top: 770px;
+}
+
+h2{
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	align-items: center;
+	color: #011C40;
+}
+
+h3{
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	align-items: center;
+	color: #011C40;`
+}
+
+
+
+p{
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	align-items: center;
+	color: #011C40;
+}
+
+.description h2{
+	position: absolute;
+	width: 430px;
+	height: 21px;
+	left: 103px;
+	top: 836px;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 150%;
+	align-items: center;
+	color: #011C40;
+}
+
+.description p{
+	position: absolute;
+	width: 512px;
+	height: 108px;
+	left: 103px;
+	top: 897px;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
+	align-items: center;
+	color: #011C40;
+}
+
+.advantages{
+	position: absolute;
+	width: 1366px;
+	height: 562px;
+	left: 0px;
+	top: 1191px;
+	background: url(img/advantages.png);
+}
+
+.advantages h2{
+	position: absolute;
+	width: 228px;
+	height: 21px;
+	left: 569px;
+	top: 120px;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 150%;
+	/* or 42px */
+	display: flex;
+	align-items: center;
+	color: #011C40;
+}
+
+.advantages h3{
+	position: absolute;
+	width: 288px;
+	height: 13px;
+	left: 30px;
+	top: 87px;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
+	color: #011C40;
+	margin:0;
+}
+
+.advantages p{
+	position: absolute;
+	width: 280px;
+	height: 71px;
+	left: 30px;
+	top: 120px;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	align-items: center;
+	color: #011C40;
+	margin: 0;
+}
+
+
+
+.advantages-item-one{
+	position: absolute;
+	width: 360px;
+	height: 241px;
+	left: 103px;
+	top: 201px;
+	background: #F9FBFD;
+}
+
+.advantages-item-two{
+	position: absolute;	
+	width: 360px;
+	height: 241px;
+	left: 503px;
+	top: 201px;
+	background: #F9FBFD;
+}
+
+.advantages-item-three{
+	position: absolute;
+	width: 360px;
+	height: 241px;
+	left: 903px;
+	top: 201px;
+	background: #F9FBFD;
+}
+
+.advantages-item-one p{
+	width: 288px;
+}
+
+.advantages-item-three p{
+	width: 241px;
+}
+
+.ship{
+	height: 32px;
+	width: 27px;
+	margin: 30px;
+}
+
+.tick{
+	height: 21px;
+	width: 38px;
+	margin-top: 35px;
+	margin-left: 30px;
+}
+
+.excursion{
+	height: 15px;
+	width: 42px;
+	margin-top: 38px;
+	margin-left: 30px;
+}
+
+.cruis-h{
+	position: absolute;
+	left: 532px;
+	top: 1873px;
+	line-height: 150%;
+}
+
+.cruises{
+	display: flex;
+	flex-wrap: wrap;
+	position: absolute;
+	left: 118px;
+	top: 1954px;
+	margin-top: 60px;
+	z-index: 0;
+}
+
+.cruises h3{
+	color: #F9FBFD;
+	
+}
+
+.cruis{
+	width: 260px;
+	height: 386px;
+}
+
+.cruis::before{
+	position: absolute;
+	margin-top: 343px;
+	margin-left: 30px;
+    color: #F9FBFD;
+    font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	align-items: center;
+}
+
+.astor{
+	margin-left: 0;
+}
+
+.astor::before{
+	position: absolute;
+	content: "Круиз “Астория”";	
+}
+
+.m-l{
+	margin-left: 30px;
+}
+
+.m-t{
+	margin-top: 30px;
+}
+
+.el::before{
+	position: absolute;
+	content: "Круиз “Элайн”";	
+}
+
+.atlant::before{
+	position: absolute;
+	content: "Круиз “Атлантис”";	
+}
+
+.odis::before{
+	position: absolute;
+	content: "Круиз “Одиссей”";	
+}
+
+.olimp::before{
+	position: absolute;
+	content: "Круиз “Олимпия”";	
+}
+
+.avror::before{
+	position: absolute;
+	content: "Круиз “Аврора”";	
+}
+
+.leon::before{
+	position: absolute;
+	content: "Круиз “Леонор”";	
+}
+
+.min::before{
+	position: absolute;
+	content: "Круиз “Минион - 1";	
+}
+
+.info{
+	display: block;
+	position: absolute;
+	width: 260px;
+	height: 386px;
+	left: 293px;
+	z-index: 3;
+}
+
+.info-astor{
+	left: 3px;
+}
+
+.info-atlant{
+	left: 583px;
+}
+
+.info-odis{
+	left: 873px;
+}
+
+.info-olimp{
+	left: 3px;
+	top: 416px;
+}
+
+.info-avror{
+	left: 293px;
+	top: 416px;
+}
+
+.info-leon{
+	left: 583px;
+	top: 416px;
+}
+
+.info-min{
+	left: 873px;
+	top: 416px;
+}
+
+.info h3{
+	margin-top: 35px;
+	margin-bottom: 25px;
+	top: 35px;
+}
+
+.info-2 {
+	display: none;
+}
+
+.info:hover .info-2{
+	display: block;
+	position: absolute;
+	width: 234px;
+	height: 386px;
+	left: -32px;
+	top: -60px;
+	margin-top: 60px;
+	margin-left: 30px;
+	background-color: #011C40;
+	padding-left: 25px;
+}
+
+.info p{
+	color: #D8D8D9;
+	font-size: 14px;
+	width: 208px;
+	margin: 0;
+	line-height: 140%;
+}
+
+.info-h{
+	line-height: 0%;
+}
+
+.route{
+	position: absolute;
+	top: 73px;
+}
+
+.route-p{
+	position: absolute;
+	top: 94px;
+}
+
+.port{
+	position: absolute;
+	top: 145px;
+}
+
+.duration{
+	position: absolute;
+	top: 197px;
+}
+
+.price{
+	position: absolute;
+	top: 249px;
+}
+
+.port-p{
+	position: absolute;
+	top: 166px;
+}
+
+.duration-p{
+	position: absolute;
+	top: 218px;
+}
+
+.price-p{
+	position: absolute;
+	top: 270px;
+}
+
+.btn{
+	position: absolute;
+	display: block;
+	background: #F9FBFD;;
+	width: 210px;
+	height: 40px;
+	text-decoration: none;
+	top: 311px;
+}
+
+h4{
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	align-items: center;
+	color: #F9FBFD;
+	margin: 0;
+	line-height: 140%;
+}
+
+.btn h4{
+	position: absolute;
+	color: #011C40;
+	font-weight: 600;
+	left: 47px;
+	bottom: 11px;
+}
+
+.booking{
+	position: absolute;
+	width: 1366px;
+	height: 555px;
+	top: 2876px;
+	background-image: url(img/booking.png);
+}
+
+.booking h2{
+	position: absolute;
+	top: 228px;
+	left: 163px;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	align-items: center;
+	color: #011C40;
+	margin: 0px;
+}
+
+.booking p{
+	position: absolute;
+	top: 287px;
+	left: 163px;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	width: 352px;
+	align-items: center;
+	color: #011C40;
+	margin: 0px;
+}
+
+form{
+	position: absolute;
+	width: 403px;
+	height: 455px;
+	left: 800px;
+	top: 50px;
+	background: #011C40;
+}
+
+::-webkit-input-placeholder {color:#011C40;}
+
+form h3{
+	position: absolute;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	align-items: center;
+	color: #F9FBFD;
+	width: 303px;
+	top: 44px;
+	left: 50px;
+	margin: 0;
+}
+
+input{
+	position: absolute;
+	width: 287px;
+	height: 43px;
+	background: #F9FBFD;
+	left: 50px;
+	border: none;
+	color: #011C40;
+	padding-left: 16px;
+	font-size: 14px;
+	font-family: Montserrat, sans-serif;
+}
+
+input[type="checkbox"]{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 50px;
+	top: 314px;
+	margin: 0;
+	background: #F9FBFD;
+}
+input[type=checkbox]:checked + label:before {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 50px;
+	top: 314px;
+	content: "\2713";
+	font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #011C40;
+    text-align: center;
+    line-height: 15px;
+    background-color: #F9FBFD;
+}
+
+ form .consent{
+	position: absolute;
+	width: 279px;
+	height: 8px;
+	left: 73px;
+	top: 319px;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 130%;
+	display: flex;
+	align-items: center;
+	color: #F9FBFD;
+}
+
+input[type="submit"]{
+	position: absolute;
+	width: 303px;
+	height: 43px;
+	left: 50px;
+	top: 362px;
+	padding: 0;
+	font-weight: 600;
+}
+
+
+
+#name{
+	position: absolute;
+	top: 125px;
+}
+
+#phone{
+	position: absolute;
+	top: 188px;
+}
+
+#email{
+	position: absolute;
+	top: 251px;
+}
+
+.geo{
+	position: absolute;
+	width: 1160px;
+	height: 306px;
+	left: 103px;
+	top: 3551px;
+}
+
+.geo-vector{
+	position: absolute;
+	left: 249px;
+	top: 217px;
+	width: 18px;
+	height: 22px;
+}
+
+.geo h3{
+	position: absolute;
+	width: 500px;
+	height: 40px;
+	left: 660px;
+	top: 81px;
+}
+
+.adress{
+	position: absolute;
+	width: 417px;
+	height: 12px;
+	left: 688PX;
+	top: 166PX;
+	margin: 0px;
+}
+
+.phone{
+	position: absolute;
+	height: 12px;
+	left: 688PX;
+	top: 211px;
+	margin: 0;
+}
+
+.geo-vector-2{
+	position: absolute;
+	width: 18px;
+	height: 22px;
+	left: 660px;
+	top: 161px;
+	margin: 0;
+}
+
+.phone-img{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 660px;
+	top: 208px;
+	margin: 0;
+}
+
+footer{
+	position: absolute;
+	width: 1366px;
+	height: 138px;
+	left: 0px;
+	top: 3977px;
+	background: #011C40;
+}
+
+footer .logo{
+	position: absolute;
+	top: 50px;
+}
+
+.nav-bottom{
+	position: absolute;
+	top: 63px;
+	left: 213px;
+}
+
+.nav-bottom a{
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	align-items: center;
+	color: #F9FBFD;
+	text-decoration: none;
+	padding-right: 33px;
+}
+
+.social{
+	position: absolute;
+	left: 1146px;
+	top: 59px;
+}
+
+.social img{
+	padding-right: 33px; 
+}
