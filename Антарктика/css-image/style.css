@@ -11,6 +11,9 @@ header{
 	background: url(img/header.png);
 }
 
+a:hover{
+
+}
 .header-top{
 	padding-top: 35px;
 }
@@ -35,6 +38,14 @@ nav a{
 	color: #F9FBFD;
 	text-decoration: none;
 	padding-right: 33px;
+}
+
+nav a:hover{
+color: #e6e6e6;
+}
+
+nav a:active{
+color: #b8b8b8;
 }
 
 .header-bottom{
@@ -458,6 +469,16 @@ p{
 	top: 311px;
 }
 
+.btn:hover{		
+	color: #034aa6;
+	background-color: #e6e6e6;
+}
+
+.btn:active{		
+	color: #034aa6;
+	background-color: #b8b8b8;
+}
+
 h4{
 	font-family: Montserrat, sans-serif;
 	font-style: normal;
@@ -475,6 +496,14 @@ h4{
 	font-weight: 600;
 	left: 47px;
 	bottom: 11px;
+}
+
+.btn h4:active{
+	color: 	red;
+}
+
+.btn h4:hover{
+	color: 	#034aa6;
 }
 
 .booking{
@@ -522,6 +551,8 @@ form{
 	background: #011C40;
 }
 
+
+
 ::-webkit-input-placeholder {color:#011C40;}
 
 form h3{
@@ -550,6 +581,10 @@ input{
 	padding-left: 16px;
 	font-size: 14px;
 	font-family: Montserrat, sans-serif;
+}
+
+input:focus{
+	outline: none;
 }
 
 input[type="checkbox"]{
@@ -605,17 +640,17 @@ input[type="submit"]{
 
 
 
-#name{
+.name{
 	position: absolute;
 	top: 125px;
 }
 
-#phone{
+ .phone-form{
 	position: absolute;
 	top: 188px;
 }
 
-#email{
+.email{
 	position: absolute;
 	top: 251px;
 }
@@ -709,6 +744,14 @@ footer .logo{
 	color: #F9FBFD;
 	text-decoration: none;
 	padding-right: 33px;
+}
+
+.nav-bottom a:hover{
+	color: #e6e6e6;
+}
+
+.nav-bottom a:active{
+	color: #b8b8b8;
 }
 
 .social{
