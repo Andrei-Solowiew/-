@@ -1,42 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
 body{
 	margin: 0;
 	padding: 0;
 }
 
-header{
+.page-header{
 	width: 1366px;
 	height: 650px;
     color: #F9FBFD;
 	background-color: blue;
 	background: url(img/header.png);
+
 }
 .header-top{
 	padding-top: 35px;
 }
 
-.logo{
+.page-header img{
 	margin-left: 103px;
+	margin-top: 35px;
+	cursor: pointer
 }
 
-nav{
+.navigation{
 	position: absolute;
-	top: 48px;
-	margin-left: 702px
+	left: 669px;
+	top: 45px;
+	margin: 0;
 }
 
-nav a{
+.navigation a{
 	font-family: "Montserrat", sans-serif;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 16px;
-	line-height: 20px;
+
 	align-items: center;
 	color: #F9FBFD;
 	text-decoration: none;
 	padding-right: 33px;
 }
 
-nav a:hover{
+.navigation a:hover{
 color: #e6e6e6;
 }
 
@@ -47,33 +53,44 @@ color: #b8b8b8;
 .header-bottom{
 	position: absolute;
 	width: 636px;
-	height: 39px;
 	left: 198px;
-	top: 283px;
-	font-family: Montserrat, sans-serif;
+	top: 291px;
+	font-family: Montserrat,"Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 24px;
 	align-items: center;
 	color: #F9FBFD;
+	
 }
 
 .header-bottom h1{
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 54px;
+	width: 636px;
+	height: 39px;
+	margin: 0;
 }
 
-.penguins{
+.header-bottom p{
 	position: absolute;
-	width: 560px;
-	height: 301px;
-	left: 703px;
-	top: 770px;
+	top: 57px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	align-items: center;
+	color: #F9FBFD;
+	margin: 0;
+
 }
 
-h2{
-	font-family: Montserrat, sans-serif;
+
+
+.h2{
+	font-family: Montserrat, "Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 28px;
@@ -81,19 +98,19 @@ h2{
 	color: #011C40;
 }
 
-h3{
-	font-family: Montserrat, sans-serif;
+.h3{
+	font-family: Montserrat, "Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
 	align-items: center;
-	color: #011C40;`
+	color: #011C40;
 }
 
 
 
-p{
-	font-family: Montserrat, sans-serif;
+.p{
+	font-family: Montserrat, "Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -106,14 +123,15 @@ p{
 	width: 430px;
 	height: 21px;
 	left: 103px;
-	top: 836px;
-	font-family: Montserrat, sans-serif;
+	top: 826px;
+	font-family: Montserrat, "Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 28px;
 	line-height: 150%;
 	align-items: center;
 	color: #011C40;
+	margin: 0;
 }
 
 .description p{
@@ -121,14 +139,23 @@ p{
 	width: 512px;
 	height: 108px;
 	left: 103px;
-	top: 897px;
-	font-family: Montserrat, sans-serif;
+	top: 892px;
+	font-family: Montserrat, "Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 150%;
 	align-items: center;
 	color: #011C40;
+	margin: 0;
+}
+
+.description img{
+	position: absolute;
+	width: 560px;
+	height: 301px;
+	left: 703px;
+	top: 770px;
 }
 
 .advantages{
@@ -137,7 +164,8 @@ p{
 	height: 562px;
 	left: 0px;
 	top: 1191px;
-	background: url(img/advantages.png);
+	background-image: url(img/advantages.png);
+	background-color: #e3e3e3;
 }
 
 .advantages h2{
@@ -145,33 +173,30 @@ p{
 	width: 228px;
 	height: 21px;
 	left: 569px;
-	top: 120px;
+	top: 110px;
 	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 28px;
 	line-height: 150%;
-	/* or 42px */
-	display: flex;
 	align-items: center;
 	color: #011C40;
+	margin: 0;
 }
 
 .advantages h3{
 	position: absolute;
-	width: 288px;
 	height: 13px;
 	left: 30px;
-	top: 87px;
+	top: 82px;
 	font-family: Montserrat, sans-serif;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 18px;
-	line-height: 150%;
-	display: flex;
+	line-height: 140%;
 	align-items: center;
 	color: #011C40;
-	margin:0;
+	margin: 0;
 }
 
 .advantages p{
@@ -179,12 +204,12 @@ p{
 	width: 280px;
 	height: 71px;
 	left: 30px;
-	top: 120px;
-	font-family: Montserrat, sans-serif;
+	top: 117px;
+	font-family: Montserrat,"Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
-	line-height: 140%;
+	line-height: 145%;
 	align-items: center;
 	color: #011C40;
 	margin: 0;
@@ -201,6 +226,16 @@ p{
 	background: #F9FBFD;
 }
 
+.advantages-item-one p{
+	width: 290px;
+}
+
+.advantages-item-one img{
+	height: 32px;
+	width: 27px;
+	margin: 30px;
+}
+
 .advantages-item-two{
 	position: absolute;	
 	width: 360px;
@@ -208,6 +243,17 @@ p{
 	left: 503px;
 	top: 201px;
 	background: #F9FBFD;
+}
+
+.advantages-item-two img{
+	height: 21px;
+	width: 38px;
+	margin-top: 35px;
+	margin-left: 30px;
+}
+
+.advantages-item-two p{
+	width: 280px;
 }
 
 .advantages-item-three{
@@ -219,49 +265,32 @@ p{
 	background: #F9FBFD;
 }
 
-.advantages-item-one p{
-	width: 288px;
-}
-
-.advantages-item-three p{
-	width: 241px;
-}
-
-.ship{
-	height: 32px;
-	width: 27px;
-	margin: 30px;
-}
-
-.tick{
-	height: 21px;
-	width: 38px;
-	margin-top: 35px;
-	margin-left: 30px;
-}
-
-.excursion{
+.advantages-item-three img{
 	height: 15px;
 	width: 42px;
 	margin-top: 38px;
 	margin-left: 30px;
 }
 
+.advantages-item-three p{
+	width: 241px;
+}
+
 .cruis-h{
 	position: absolute;
 	left: 532px;
-	top: 1873px;
+	top: 1863px;
 	line-height: 150%;
+	margin: 0;
 }
 
 .cruises{
 	display: flex;
 	flex-wrap: wrap;
-	position: absolute;
-	left: 118px;
-	top: 1954px;
-	margin-top: 60px;
+	margin-left: 25px;
+	margin-top: 1304px;
 	z-index: 0;
+	justify-content: center;
 }
 
 .cruises h3{
@@ -276,7 +305,7 @@ p{
 
 .cruis::before{
 	position: absolute;
-	margin-top: 343px;
+	margin-top: 337px;
 	margin-left: 30px;
     color: #F9FBFD;
     font-family: Montserrat, sans-serif;
@@ -292,7 +321,6 @@ p{
 }
 
 .astor::before{
-	position: absolute;
 	content: "Круиз “Астория”";	
 }
 
@@ -344,40 +372,41 @@ p{
 	position: absolute;
 	width: 260px;
 	height: 386px;
-	left: 293px;
+	left: 412px;
 	z-index: 3;
+	justify-content: center;
 }
 
 .info-astor{
-	left: 3px;
+	left: 121px;
 }
 
 .info-atlant{
-	left: 583px;
+	left: 701px;
 }
 
 .info-odis{
-	left: 873px;
+	left: 991px;
 }
 
 .info-olimp{
-	left: 3px;
-	top: 416px;
+	left: 121px;
+	top: 2370px;
 }
 
 .info-avror{
-	left: 293px;
-	top: 416px;
+	left: 412px;
+	top: 2370px;
 }
 
 .info-leon{
-	left: 583px;
-	top: 416px;
+	left: 701px;
+	top: 2370px;
 }
 
 .info-min{
-	left: 873px;
-	top: 416px;
+	left: 991px;
+	top: 2370px;
 }
 
 .info h3{
@@ -458,7 +487,7 @@ p{
 .btn{
 	position: absolute;
 	display: block;
-	background: #F9FBFD;;
+	background: #F9FBFD;
 	width: 210px;
 	height: 40px;
 	text-decoration: none;
@@ -475,8 +504,8 @@ p{
 	background-color: #b8b8b8;
 }
 
-h4{
-	font-family: Montserrat, sans-serif;
+.h4{
+	font-family: Montserrat,"Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -486,7 +515,7 @@ h4{
 	line-height: 140%;
 }
 
-.btn h4{
+.btn .h4{
 	position: absolute;
 	color: #011C40;
 	font-weight: 600;
@@ -494,11 +523,11 @@ h4{
 	bottom: 11px;
 }
 
-.btn h4:active{
+.btn .h4:active{
 	color: 	red;
 }
 
-.btn h4:hover{
+.btn .h4:hover{
 	color: 	#034aa6;
 }
 
@@ -508,13 +537,14 @@ h4{
 	height: 555px;
 	top: 2876px;
 	background-image: url(img/booking.png);
+	background-color: #87cefa;
 }
 
 .booking h2{
 	position: absolute;
-	top: 228px;
+	top: 220px;
 	left: 163px;
-	font-family: Montserrat, sans-serif;
+	font-family: Montserrat,"Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
@@ -525,7 +555,7 @@ h4{
 
 .booking p{
 	position: absolute;
-	top: 287px;
+	height: 40px;
 	left: 163px;
 	font-family: Montserrat, sans-serif;
 	font-style: normal;
@@ -538,12 +568,22 @@ h4{
 	margin: 0px;
 }
 
-form{
+.booking-p-one{
+	top: 283px;
+	margin:0;
+	width: 352px;
+}
+
+.booking-p-two{
+	top: 310px;
+}
+
+.booking-form{
 	position: absolute;
 	width: 403px;
 	height: 455px;
 	left: 800px;
-	top: 50px;
+	top: 51px;
 	background: #011C40;
 }
 
@@ -551,9 +591,9 @@ form{
 
 ::-webkit-input-placeholder {color:#011C40;}
 
-form h3{
+.booking-form .h3{
 	position: absolute;
-	font-family: Montserrat, sans-serif;
+	font-family: Montserrat,"Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
@@ -566,24 +606,25 @@ form h3{
 	margin: 0;
 }
 
-input{
+.booking-form-group input{
 	position: absolute;
 	width: 287px;
-	height: 43px;
+	height: 41px;
 	background: #F9FBFD;
 	left: 50px;
 	border: none;
 	color: #011C40;
 	padding-left: 16px;
 	font-size: 14px;
-	font-family: Montserrat, sans-serif;
+	font-family: Montserrat, "Cramaten", sans-serif;
+
 }
 
-input:focus{
+.booking-form-group input:focus{
 	outline: none;
 }
 
-input[type="checkbox"]{
+.checkbox-area input[type="checkbox"]{
 	position: absolute;
 	width: 18px;
 	height: 18px;
@@ -591,8 +632,9 @@ input[type="checkbox"]{
 	top: 314px;
 	margin: 0;
 	background: #F9FBFD;
+	cursor: pointer;
 }
-input[type=checkbox]:checked + label:before {
+.checkbox-area input[type=checkbox]:checked + label:before {
 	position: absolute;
 	width: 18px;
 	height: 18px;
@@ -608,13 +650,13 @@ input[type=checkbox]:checked + label:before {
     background-color: #F9FBFD;
 }
 
- form .consent{
+.booking-form .consent{
 	position: absolute;
 	width: 279px;
 	height: 8px;
 	left: 73px;
 	top: 319px;
-	font-family: Montserrat, sans-serif;
+	font-family: Montserrat,"Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
@@ -624,7 +666,7 @@ input[type=checkbox]:checked + label:before {
 	color: #F9FBFD;
 }
 
-input[type="submit"]{
+.booking-form-group input[type="submit"]{
 	position: absolute;
 	width: 303px;
 	height: 43px;
@@ -632,6 +674,7 @@ input[type="submit"]{
 	top: 362px;
 	padding: 0;
 	font-weight: 600;
+	cursor: pointer;
 }
 
 
@@ -641,7 +684,7 @@ input[type="submit"]{
 	top: 125px;
 }
 
- .phone-form{
+.phone-form{
 	position: absolute;
 	top: 188px;
 }
@@ -659,7 +702,7 @@ input[type="submit"]{
 	top: 3551px;
 }
 
-.geo-vector{
+.geo-vector img{
 	position: absolute;
 	left: 249px;
 	top: 217px;
@@ -671,16 +714,24 @@ input[type="submit"]{
 	position: absolute;
 	width: 500px;
 	height: 40px;
-	left: 660px;
-	top: 81px;
+	left: 661px;
+	top: 83px;
+	margin: 0;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 150%;
+	display: flex;
+	align-items: center;
 }
 
-.adress{
+.adress-p{
 	position: absolute;
-	width: 417px;
+	width: 420px;
 	height: 12px;
-	left: 688PX;
-	top: 166PX;
+	left: 688px;
+	top: 164px;
 	margin: 0px;
 }
 
@@ -688,11 +739,19 @@ input[type="submit"]{
 	position: absolute;
 	height: 12px;
 	left: 688PX;
-	top: 211px;
+	top: 209px;
 	margin: 0;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: #011C40;
+	align-items: center;
+	text-decoration: none;
+
 }
 
-.geo-vector-2{
+.adress img{
 	position: absolute;
 	width: 18px;
 	height: 22px;
@@ -701,7 +760,7 @@ input[type="submit"]{
 	margin: 0;
 }
 
-.phone-img{
+.geo-phone img{
 	position: absolute;
 	width: 18px;
 	height: 18px;
@@ -710,7 +769,7 @@ input[type="submit"]{
 	margin: 0;
 }
 
-footer{
+.page-footer{
 	position: absolute;
 	width: 1366px;
 	height: 138px;
@@ -719,19 +778,21 @@ footer{
 	background: #011C40;
 }
 
-footer .logo{
+
+.logo-bottom{
 	position: absolute;
 	top: 50px;
+	left:  104px;
 }
 
 .nav-bottom{
 	position: absolute;
-	top: 63px;
+	top: 60px;
 	left: 213px;
 }
 
 .nav-bottom a{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat","Cramaten", sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -739,7 +800,7 @@ footer .logo{
 	align-items: center;
 	color: #F9FBFD;
 	text-decoration: none;
-	padding-right: 33px;
+	padding-right: 30px;
 }
 
 .nav-bottom a:hover{
@@ -753,9 +814,16 @@ footer .logo{
 .social{
 	position: absolute;
 	left: 1146px;
-	top: 59px;
+	top: 57px;
+	cursor: pointer;
 }
 
 .social img{
-	padding-right: 33px; 
+	padding-right: 29px; 
+}
+
+.twiter{
+	position: absolute;
+	top: 4px;
+	left: 98px;
 }
