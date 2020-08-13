@@ -6,12 +6,13 @@ body{
 }
 
 .page-header{
-	width: 1366px;
 	height: 650px;
+	width: 100%;
     color: #F9FBFD;
 	background-color: blue;
-	background: url(img/header.png);
-
+	background-image: url(img/header.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 .header-top{
 	padding-top: 35px;
@@ -55,7 +56,7 @@ color: #b8b8b8;
 	width: 636px;
 	left: 198px;
 	top: 291px;
-	font-family: Montserrat,"Cramaten", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -90,7 +91,7 @@ color: #b8b8b8;
 
 
 .h2{
-	font-family: Montserrat, "Cramaten", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 28px;
@@ -99,18 +100,20 @@ color: #b8b8b8;
 }
 
 .h3{
-	font-family: Montserrat, "Cramaten", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 500;
 	font-size: 18px;
 	align-items: center;
-	color: #011C40;
+	color: #F9FBFD;
+	margin: 0;
+	line-height: 140%;
 }
 
 
 
 .p{
-	font-family: Montserrat, "Cramaten", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -124,7 +127,7 @@ color: #b8b8b8;
 	height: 21px;
 	left: 103px;
 	top: 826px;
-	font-family: Montserrat, "Cramaten", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 28px;
@@ -140,7 +143,7 @@ color: #b8b8b8;
 	height: 108px;
 	left: 103px;
 	top: 892px;
-	font-family: Montserrat, "Cramaten", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -166,6 +169,11 @@ color: #b8b8b8;
 	top: 1191px;
 	background-image: url(img/advantages.png);
 	background-color: #e3e3e3;
+	margin: 0;
+}
+
+.advantages li{
+	list-style-type: none;
 }
 
 .advantages h2{
@@ -205,7 +213,7 @@ color: #b8b8b8;
 	height: 71px;
 	left: 30px;
 	top: 117px;
-	font-family: Montserrat,"Cramaten", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
@@ -223,17 +231,15 @@ color: #b8b8b8;
 	height: 241px;
 	left: 103px;
 	top: 201px;
-	background: #F9FBFD;
+	background-color: #F9FBFD;
+	background-image: url(img/ship.png);
+	background-size: 27px 32px; 
+	background-position: 30px 30px;
+	background-repeat: no-repeat;
 }
 
 .advantages-item-one p{
 	width: 290px;
-}
-
-.advantages-item-one img{
-	height: 32px;
-	width: 27px;
-	margin: 30px;
 }
 
 .advantages-item-two{
@@ -242,14 +248,11 @@ color: #b8b8b8;
 	height: 241px;
 	left: 503px;
 	top: 201px;
-	background: #F9FBFD;
-}
-
-.advantages-item-two img{
-	height: 21px;
-	width: 38px;
-	margin-top: 35px;
-	margin-left: 30px;
+	background-color: #F9FBFD;
+	background-image: url(img/tick.png);
+	background-size: 38px 21px; 
+	background-position: 30px 34px;
+	background-repeat: no-repeat;
 }
 
 .advantages-item-two p{
@@ -262,21 +265,18 @@ color: #b8b8b8;
 	height: 241px;
 	left: 903px;
 	top: 201px;
-	background: #F9FBFD;
-}
-
-.advantages-item-three img{
-	height: 15px;
-	width: 42px;
-	margin-top: 38px;
-	margin-left: 30px;
+	background-color: #F9FBFD;
+	background-image: url(img/excursion.png);
+	background-size: 42px 15px; 
+	background-position: 30px 38px;
+	background-repeat: no-repeat;
 }
 
 .advantages-item-three p{
 	width: 241px;
 }
 
-.cruis-h{
+.cruise-h{
 	position: absolute;
 	left: 532px;
 	top: 1863px;
@@ -298,12 +298,12 @@ color: #b8b8b8;
 	
 }
 
-.cruis{
+.cruise{
 	width: 260px;
 	height: 386px;
 }
 
-.cruis::before{
+.cruise::before{
 	position: absolute;
 	margin-top: 337px;
 	margin-left: 30px;
@@ -377,23 +377,43 @@ color: #b8b8b8;
 	justify-content: center;
 }
 
+.info ul{
+	padding: 0;
+}
+
+.info li{
+	list-style: none;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	align-items: center;
+	color: #011C40;
+}
+
+.info-el{
+	top: 1954px;
+}
+
 .info-astor{
-	left: 121px;
+	left: 120px;
+	top: 1954px;
 }
 
 .info-atlant{
-	left: 701px;
+	left: 700px;
+	top: 1954px;
 }
 
 .info-odis{
-	left: 991px;
+	left: 990px;
+	top: 1954px;
 }
 
 .info-olimp{
 	left: 121px;
 	top: 2370px;
 }
-
 .info-avror{
 	left: 412px;
 	top: 2370px;
@@ -432,7 +452,7 @@ color: #b8b8b8;
 	padding-left: 25px;
 }
 
-.info p{
+.info li{
 	color: #D8D8D9;
 	font-size: 14px;
 	width: 208px;
@@ -449,7 +469,7 @@ color: #b8b8b8;
 	top: 73px;
 }
 
-.route-p{
+.route-li{
 	position: absolute;
 	top: 94px;
 }
@@ -459,9 +479,19 @@ color: #b8b8b8;
 	top: 145px;
 }
 
+.port-li{
+	position: absolute;
+	top: 166px;
+}
+
 .duration{
 	position: absolute;
 	top: 197px;
+}
+
+.duration-li{
+	position: absolute;
+	top: 218px;
 }
 
 .price{
@@ -469,17 +499,8 @@ color: #b8b8b8;
 	top: 249px;
 }
 
-.port-p{
-	position: absolute;
-	top: 166px;
-}
 
-.duration-p{
-	position: absolute;
-	top: 218px;
-}
-
-.price-p{
+.price-li{
 	position: absolute;
 	top: 270px;
 }
@@ -504,8 +525,8 @@ color: #b8b8b8;
 	background-color: #b8b8b8;
 }
 
-.h4{
-	font-family: Montserrat,"Cramaten", sans-serif;
+.b{
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
@@ -515,7 +536,16 @@ color: #b8b8b8;
 	line-height: 140%;
 }
 
-.btn .h4{
+.b3{
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	align-items: center;
+	color: #011C40;
+}
+
+.btn .b{
 	position: absolute;
 	color: #011C40;
 	font-weight: 600;
@@ -523,11 +553,11 @@ color: #b8b8b8;
 	bottom: 11px;
 }
 
-.btn .h4:active{
+.btn .b:active{
 	color: 	red;
 }
 
-.btn .h4:hover{
+.btn .b:hover{
 	color: 	#034aa6;
 }
 
@@ -544,7 +574,7 @@ color: #b8b8b8;
 	position: absolute;
 	top: 220px;
 	left: 163px;
-	font-family: Montserrat,"Cramaten", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 40px;
@@ -587,14 +617,16 @@ color: #b8b8b8;
 	background: #011C40;
 }
 
+.h3{
+
+}
+
 
 
 ::-webkit-input-placeholder {color:#011C40;}
 
-.booking-form .h3{
+.booking-form .b3{
 	position: absolute;
-	font-family: Montserrat,"Cramaten", sans-serif;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 150%;
@@ -608,7 +640,7 @@ color: #b8b8b8;
 
 .booking-form-group input{
 	position: absolute;
-	width: 287px;
+	width: 286px;
 	height: 41px;
 	background: #F9FBFD;
 	left: 50px;
@@ -616,15 +648,24 @@ color: #b8b8b8;
 	color: #011C40;
 	padding-left: 16px;
 	font-size: 14px;
-	font-family: Montserrat, "Cramaten", sans-serif;
+	font-family: Montserrat,  sans-serif;
+}
 
+.booking-form-group input:hover{
+	color: #034aa6;
+}
+
+
+.booking-form-group input:active{
+	color: #1478fa;
 }
 
 .booking-form-group input:focus{
 	outline: none;
+	color: #003366;
 }
 
-.checkbox-area input[type="checkbox"]{
+.ceckbox-area input[type="checkbox"]{
 	position: absolute;
 	width: 18px;
 	height: 18px;
@@ -634,12 +675,20 @@ color: #b8b8b8;
 	background: #F9FBFD;
 	cursor: pointer;
 }
-.checkbox-area input[type=checkbox]:checked + label:before {
+
+.check{
+	position: absolute;
+	left: 50px;
+	top: 314px;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+}
+
+.check:checked:before{
 	position: absolute;
 	width: 18px;
 	height: 18px;
-	left: 50px;
-	top: 314px;
 	content: "\2713";
 	font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
@@ -650,13 +699,15 @@ color: #b8b8b8;
     background-color: #F9FBFD;
 }
 
+
+
 .booking-form .consent{
 	position: absolute;
 	width: 279px;
 	height: 8px;
 	left: 73px;
 	top: 319px;
-	font-family: Montserrat,"Cramaten", sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
@@ -675,6 +726,25 @@ color: #b8b8b8;
 	padding: 0;
 	font-weight: 600;
 	cursor: pointer;
+}
+
+.btn-submit{
+	position: absolute;
+	width: 303px;
+	height: 42px;
+	left: 50px;
+	top: 362px;
+	padding: 0;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 0;
+	margin: 0;
+	border: 0;
+	font-family: Montserrat, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	align-items: center;
+	color: #011C40;
 }
 
 
@@ -700,14 +770,19 @@ color: #b8b8b8;
 	height: 306px;
 	left: 103px;
 	top: 3551px;
+	
 }
 
-.geo-vector img{
+.geo:before{
+	content: "";
 	position: absolute;
-	left: 249px;
-	top: 217px;
+	background-image:url(img/geo-Vector.png);
+	background-repeat: no-repeat;
+	background-size: 18px 22px;
 	width: 18px;
 	height: 22px;
+	top: 217px;
+	left: 249px;
 }
 
 .geo h3{
@@ -724,6 +799,19 @@ color: #b8b8b8;
 	line-height: 150%;
 	display: flex;
 	align-items: center;
+	color: #011C40;
+}
+
+.adress:before{
+	content: "";
+	position: absolute;
+	background-image:url(img/geo-Vector.png);
+	background-repeat: no-repeat;
+	background-size: 18px 22px;
+	width: 18px;
+	height: 22px;
+	left: 660px;
+	top: 161px;
 }
 
 .adress-p{
@@ -748,16 +836,18 @@ color: #b8b8b8;
 	color: #011C40;
 	align-items: center;
 	text-decoration: none;
-
 }
 
-.adress img{
+.geo-phone:before{
+	content: "";
 	position: absolute;
+	background-image:url(img/phone.png);
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
 	width: 18px;
-	height: 22px;
+	height: 18px;
 	left: 660px;
-	top: 161px;
-	margin: 0;
+	top: 208px;
 }
 
 .geo-phone img{
@@ -792,7 +882,7 @@ color: #b8b8b8;
 }
 
 .nav-bottom a{
-	font-family: "Montserrat","Cramaten", sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
@@ -827,3 +917,4 @@ color: #b8b8b8;
 	top: 4px;
 	left: 98px;
 }
+
