@@ -31,7 +31,7 @@
 	width: auto;
     color: #F9FBFD;
 	background-color: blue;
-	background-image: url(../img/header.png);
+	background-image: url(../img/header.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;	
 	background-size: 100% 100%;
@@ -188,7 +188,7 @@ color: #b8b8b8;
 	min-width: 1366px;
 	width: 100%;
 	height: auto;
-	background-image: url(../img/advantages.png);
+	background-image: url(../img/advantages.jpg);
 	background-repeat: no-repeat;
 	background-color: #e3e3e3;
 	margin: 0;
@@ -387,10 +387,9 @@ color: #b8b8b8;
 	position: absolute;
 	width: 260px;
 	height: 386px;
-	left: 412px;
+	left: 414px;
 	z-index: 3;
 	justify-content: center;
-	
 	font-family: Montserrat-400, sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -411,49 +410,47 @@ color: #b8b8b8;
 	margin: 0;
 }
 
-
-
 .info-el{
 	top: 1954px;
 }
 
 .info-astor{
-	left: 120px;
+	left: 124px;
 	top: 1954px;
 }
 
 .info-atlant{
-	left: 700px;
+	left: 704px;
 	top: 1954px;
 }
 
 .info-odis{
-	left: 990px;
+	left: 994px;
 	top: 1954px;
 }
 
 .info-olimp{
-	left: 121px;
+	left: 124px;
 	top: 2370px;
 }
 .info-avror{
-	left: 412px;
+	left: 414px;
 	top: 2370px;
 }
 
 .info-leon{
-	left: 701px;
+	left: 704px;
 	top: 2370px;
 }
 
 .info-min{
-	left: 991px;
+	left: 994px;
 	top: 2370px;
 }
 
 .info h3{
-	margin-top: 35px;
-	margin-bottom: 25px;
+	margin-top: 42px;
+	margin-bottom: 28px;
 	top: 35px;
 }
 
@@ -466,7 +463,7 @@ color: #b8b8b8;
 	position: absolute;
 	width: 234px;
 	height: 386px;
-	left: -32px;
+	left: -34px;
 	top: -60px;
 	margin-top: 60px;
 	margin-left: 30px;
@@ -474,11 +471,8 @@ color: #b8b8b8;
 	padding-left: 25px;
 }
 
-.info li{
-	
-}
-
 .info .b{
+	display: block;
 	font-family: Montserrat-500, sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -522,6 +516,19 @@ color: #b8b8b8;
 	top: 311px;
 }
 
+
+.info .btn{
+	width: 165px;
+	height: 29px;
+	position: absolute;
+	color: #011C40;
+	font-family: Montserrat-600, sans-serif;
+	font-weight: 600;
+	bottom: 11px;
+	padding-left: 45px;
+	padding-top: 11px;
+}
+
 .btn:hover{		
 	color: #034aa6;
 	background-color: #e6e6e6;
@@ -531,6 +538,7 @@ color: #b8b8b8;
 	color: #034aa6;
 	background-color: #b8b8b8;
 }
+
 
 .b{
 	font-family: Montserrat-500, sans-serif;
@@ -552,29 +560,12 @@ color: #b8b8b8;
 	color: #011C40;
 }
 
-.btn .b{
-	position: absolute;
-	color: #011C40;
-	font-family: Montserrat-600, sans-serif;
-	font-weight: 600;
-	left: 47px;
-	bottom: 11px;
-}
-
-.btn .b:active{
-	color: 	red;
-}
-
-.btn .b:hover{
-	color: 	#034aa6;
-}
-
 .booking{
 	min-width: 1366px;
 	width: auto;
 	height: 555px;
 	margin-top: 120px;
-	background-image: url(../img/booking.png);
+	background-image: url(../img/booking.jpg);
 	background-color: #87cefa;
 }
 
@@ -654,11 +645,27 @@ color: #b8b8b8;
 	color: blue;
 }
 
-.none{
+.booking-form-group label{
 	font-size: 0;
 }
 
-.check{
+
+.booking-form-group input[type="text"]{
+	position: absolute;
+	top: 125px;
+}
+
+.booking-form-group input[type="tel"]{
+	position: absolute;
+	top: 188px;
+}
+
+.booking-form-group input[type="email"]{
+	position: absolute;
+	top: 251px;
+}
+
+.checkbox-area input[type="checkbox"]{
 	position: absolute;
 	left: 50px;
 	top: 314px;
@@ -669,7 +676,7 @@ color: #b8b8b8;
 	cursor: pointer;
 }
 
-.check:checked:before{
+.checkbox-area input[type="checkbox"]:checked:before{
 	position: absolute;
 	width: 18px;
 	height: 18px;
@@ -734,21 +741,6 @@ color: #b8b8b8;
 
 .button:active{
 	outline: none;
-}
-
-.name{
-	position: absolute;
-	top: 125px;
-}
-
-.phone-form{
-	position: absolute;
-	top: 188px;
-}
-
-.email{
-	position: absolute;
-	top: 251px;
 }
 
 .geo{
@@ -931,4 +923,3 @@ color: #b8b8b8;
 	position: relative;
 	bottom: 3px;
 }
-
