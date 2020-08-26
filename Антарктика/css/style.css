@@ -145,12 +145,16 @@ color: #b8b8b8;
 	color: #011C40;
 }
 
-.description h2{
-	position: absolute;
-	width: 430px;
+.description-text{
+	display: inline-block;
+	vertical-align: middle;
+	width: 620px;
 	height: auto;
-	left: 103px;
-	top: 826px;
+}
+
+.description h2{
+	display: inline-block;
+	vertical-align: middle;
 	font-family: Montserrat-600, sans-serif;
 	font-style: normal;
 	font-weight: 600;
@@ -159,9 +163,13 @@ color: #b8b8b8;
 	align-items: center;
 	color: #011C40;
 	margin: 0;
+	margin-left: 103px;
+	margin-top: -5px;
 }
 
 .description p{
+	display: inline-block;
+	vertical-align: middle;
 	width: 512px;
 	height: auto;
 	font-family: Montserrat-400, sans-serif;
@@ -171,17 +179,18 @@ color: #b8b8b8;
 	line-height: 150%;
 	color: #011C40;
 	margin: 0;
-	margin-left: 103px;
-	margin-top: 241px;
-	margin-bottom: 179px;
+	padding-left: 103px;
+	padding-top: 24px;
 }
 
 .description img{
-	position: absolute;
+	display: inline-block;
+	vertical-align: middle;
 	width: 560px;
 	height: 301px;
-	left: 703px;
-	top: 770px;
+	margin-bottom: 121px;
+	margin-top: 120px;
+	margin-left: 79px;
 }
 
 .advantages{
@@ -561,15 +570,23 @@ color: #b8b8b8;
 }
 
 .booking{
+	display: block;
 	min-width: 1366px;
 	width: auto;
-	height: 555px;
+	height: auto;
 	margin-top: 120px;
 	background-image: url(../img/booking.jpg);
 	background-color: #87cefa;
 }
 
+.booking-text{
+	display: inline-block;
+	width: 671px;;
+}
+
 .booking h2{
+	display: inline-block;
+	vertical-align: middle;
 	padding-top: 218px;
 	padding-left: 163px;
 	font-family: Montserrat-700, sans-serif;
@@ -582,6 +599,8 @@ color: #b8b8b8;
 }
 
 .booking p{
+	display: inline-block;
+	vertical-align: middle;
 	height: 40px;
 	padding-left: 163px;
 	font-size: 18px;
@@ -593,42 +612,44 @@ color: #b8b8b8;
 	margin: 0px;
 }
 
-.booking-form{
-	position: absolute;
+.booking .booking-form{
+	display: inline-block;
+	height: auto;
 	width: 403px;
-	height: 455px;
-	margin-left: 800px;
-	top: 2926px;
+	margin-bottom: 1px;
 	background: #011C40;
+	margin-left: 126px;
+	margin-top: 49px;
 }
 
 ::-webkit-input-placeholder {color:#011C40;}
 
 .booking-form .b3{
+	display: block;
 	font-family: Montserrat-500, sans-serif;
-	position: absolute;
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 150%;
 	align-items: center;
 	color: #F9FBFD;
 	width: 303px;
-	top: 44px;
-	left: 50px;
+	padding-top: 44px;
+	padding-left: 50px;
 	margin: 0;
+	margin-bottom: 27px;
 }
 
 .booking-form-group input{
-	position: absolute;
 	width: 286px;
 	height: 41px;
 	background: #F9FBFD;
-	left: 50px;
+	margin-left: 45px;
 	border: none;
 	color: #011C40;
 	padding-left: 16px;
 	font-size: 14px;
 	font-family: Montserrat-400,  sans-serif;
+	margin-bottom: 20px;
 }
 
 .booking-form-group input:hover{
@@ -651,22 +672,18 @@ color: #b8b8b8;
 
 
 .booking-form-group input[type="text"]{
-	position: absolute;
 	top: 125px;
 }
 
 .booking-form-group input[type="tel"]{
-	position: absolute;
 	top: 188px;
 }
 
 .booking-form-group input[type="email"]{
-	position: absolute;
 	top: 251px;
 }
 
 .checkbox-area input[type="checkbox"]{
-	position: absolute;
 	left: 50px;
 	top: 314px;
 	width: 18px;
@@ -677,7 +694,6 @@ color: #b8b8b8;
 }
 
 .checkbox-area input[type="checkbox"]:checked:before{
-	position: absolute;
 	width: 18px;
 	height: 18px;
 	content: "\2713";
@@ -691,10 +707,7 @@ color: #b8b8b8;
     background-color: #F9FBFD;
 }
 
-
-
 .booking-form .consent{
-	position: absolute;
 	width: 279px;
 	height: 8px;
 	left: 73px;
@@ -710,7 +723,6 @@ color: #b8b8b8;
 }
 
 .booking-form-group input[type="submit"]{
-	position: absolute;
 	width: 303px;
 	height: 43px;
 	left: 50px;
@@ -722,11 +734,9 @@ color: #b8b8b8;
 }
 
 .button{
-	position: absolute;
+	position: inherit;
 	width: 303px;
 	height: 42px;
-	left: 50px;
-	top: 362px;
 	padding: 0;
 	cursor: pointer;
 	border-radius: 0;
@@ -743,13 +753,16 @@ color: #b8b8b8;
 	outline: none;
 }
 
+.button:focus{
+	outline: none;
+}
+
 .geo{
-	position: absolute;
+	display: block;
 	width: 1160px;
 	height: 306px;
-	left: 103px;
-	top: 3551px;
-	
+	margin-left: 103px;
+	margin-top: 120px;
 }
 
 .geo:before{
@@ -760,17 +773,20 @@ color: #b8b8b8;
 	background-size: 18px 22px;
 	width: 18px;
 	height: 22px;
-	top: 217px;
-	left: 249px;
+	top: 3768px;
+	left: 352px;
+}
+
+.geo-text{
+	display: inline-block;
+	margin-left: 96px;
 }
 
 .geo h3{
-	position: absolute;
 	width: 500px;
 	height: 40px;
-	left: 661px;
-	top: 83px;
 	margin: 0;
+	margin-bottom: 41px;
 	font-family: Montserrat-500, sans-serif;
 	font-style: normal;
 	font-weight: 500;
@@ -781,7 +797,7 @@ color: #b8b8b8;
 	color: #011C40;
 }
 
-.adress:before{
+.address:before{
 	content: "";
 	position: absolute;
 	background-image:url(../img/geo-Vector.svg);
@@ -789,25 +805,21 @@ color: #b8b8b8;
 	background-size: 18px 22px;
 	width: 18px;
 	height: 22px;
-	left: 660px;
-	top: 161px;
+	left: 763px;
+	top: 3712px;
 }
 
-.adress-p{
-	position: absolute;
-	width: 420px;
-	height: 12px;
-	left: 688px;
-	top: 164px;
+.address-p{
 	margin: 0px;
+	margin-bottom: 110px;
+	margin-left: 28px;
 }
 
 .phone{
-	position: absolute;
-	height: 12px;
-	left: 688PX;
-	top: 209px;
+	position: relative;
+	bottom: 83px;
 	margin: 0;
+	margin-left: 28px;
 	font-family: Montserrat-400, sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -829,12 +841,10 @@ color: #b8b8b8;
 	background-size: 18px 18px;
 	width: 18px;
 	height: 18px;
-	left: 660px;
-	top: 208px;
+	top: 3759px;
 }
 
 .geo-phone img{
-	position: absolute;
 	width: 18px;
 	height: 18px;
 	left: 660px;
@@ -843,26 +853,27 @@ color: #b8b8b8;
 }
 
 .page-footer{
+	display: block;
 	min-width: 1366px;
 	width: auto;
 	height: auto;
 	left: 0px;
-	margin-top: 546px;
+	margin-top: 119px;
 	background: #011C40;
 }
 
 
 .logo-bottom{
-	position: absolute;
-	top: 4027px;
-	left: 103px;
+	margin-left: 103px;
+	margin-top: 50px;
 }
 
 .nav-bottom{
 	display: inline-block;
-	margin-left: 213px;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	vertical-align: top;
+	margin-left: 36px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 .nav-bottom a{
@@ -874,7 +885,7 @@ color: #b8b8b8;
 	align-items: center;
 	color: #F9FBFD;
 	text-decoration: none;
-	padding-right: 30px;
+	padding-right: 31px;
 }
 
 .nav-bottom a:hover{
@@ -889,7 +900,7 @@ color: #b8b8b8;
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	left: 304px;
+	left: 311px;
 }
 
 .social img:hover{
@@ -901,7 +912,6 @@ color: #b8b8b8;
 }
 
 .icon{
-	
 	padding-right: 29px; 
 	cursor: pointer;
 }
