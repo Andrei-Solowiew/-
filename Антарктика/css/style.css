@@ -610,13 +610,14 @@ color: #b8b8b8;
 	color: #011C40;
 	padding-top: 14px;
 	margin: 0px;
+	margin-bottom: 288px;
 }
 
 .booking .booking-form{
 	display: inline-block;
 	height: auto;
 	width: 403px;
-	margin-bottom: 1px;
+	margin-bottom: 51px;
 	background: #011C40;
 	margin-left: 126px;
 	margin-top: 49px;
@@ -683,9 +684,14 @@ color: #b8b8b8;
 	top: 251px;
 }
 
+.checkbox-area{
+	display: block;
+	margin-left: 50px;
+	margin-bottom: 23px;
+}
+
 .checkbox-area input[type="checkbox"]{
-	left: 50px;
-	top: 314px;
+	margin-left: 50px;
 	width: 18px;
 	height: 18px;
 	margin: 0;
@@ -708,32 +714,21 @@ color: #b8b8b8;
 }
 
 .booking-form .consent{
+	display: inline-block;
 	width: 279px;
-	height: 8px;
-	left: 73px;
-	top: 319px;
+	vertical-align: middle;
 	font-family: Montserrat-400, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 10px;
 	line-height: 130%;
-	display: flex;
 	align-items: center;
 	color: #F9FBFD;
-}
-
-.booking-form-group input[type="submit"]{
-	width: 303px;
-	height: 43px;
-	left: 50px;
-	top: 362px;
-	padding: 0;
-	font-family: Montserrat-600, sans-serif;
-	font-weight: 600;
-	cursor: pointer;
+	margin-bottom: 8px;
 }
 
 .button{
+	display: block;
 	position: inherit;
 	width: 303px;
 	height: 42px;
@@ -742,11 +737,14 @@ color: #b8b8b8;
 	border-radius: 0;
 	margin: 0;
 	border: 0;
+	margin-top: 10px;
+	margin-left: 50px;
 	font-family: Montserrat-600, sans-serif;
 	font-weight: 600;
 	font-size: 14px;
 	align-items: center;
 	color: #011C40;
+	margin-bottom: 50px;
 }
 
 .button:active{
