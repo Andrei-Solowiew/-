@@ -110,8 +110,6 @@ color: #b8b8b8;
 
 }
 
-
-
 .h2{
 	font-family: Montserrat-600, sans-serif;
 	font-style: normal;
@@ -120,8 +118,6 @@ color: #b8b8b8;
 	align-items: center;
 	color: #011C40;
 }
-
-
 
 .h3{
 	font-family: Montserrat-500, sans-serif;
@@ -195,7 +191,7 @@ color: #b8b8b8;
 
 .advantages{
 	min-width: 1366px;
-	width: 100%;
+	width: auto;
 	height: auto;
 	background-image: url(../img/advantages.jpg);
 	background-repeat: no-repeat;
@@ -203,7 +199,9 @@ color: #b8b8b8;
 	margin: 0;
 	margin-bottom: 110px;
 	padding-bottom: 105px;
-	color: 
+	background-position: center center;
+	background-repeat: no-repeat;	
+	background-size: 100% 100%;
 }
 
 .advantages li{
@@ -310,6 +308,7 @@ color: #b8b8b8;
 }
 
 .cruises{
+	width: 1318px;
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 25px;
@@ -573,10 +572,13 @@ color: #b8b8b8;
 	display: block;
 	min-width: 1366px;
 	width: auto;
-	height: auto;
+	height: 555px;
 	margin-top: 120px;
 	background-image: url(../img/booking.jpg);
 	background-color: #87cefa;
+	background-position: center center;
+	background-repeat: no-repeat;	
+	background-size: 100% 100%;
 }
 
 .booking-text{
@@ -587,7 +589,7 @@ color: #b8b8b8;
 .booking h2{
 	display: inline-block;
 	vertical-align: middle;
-	padding-top: 218px;
+	padding-top: 0px;
 	padding-left: 163px;
 	font-family: Montserrat-700, sans-serif;
 	font-style: normal;
@@ -610,7 +612,7 @@ color: #b8b8b8;
 	color: #011C40;
 	padding-top: 14px;
 	margin: 0px;
-	margin-bottom: 288px;
+	margin-bottom: 283px;
 }
 
 .booking .booking-form{
@@ -700,13 +702,17 @@ color: #b8b8b8;
 }
 
 .checkbox-area input[type="checkbox"]:checked:before{
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 3px;
 	width: 18px;
 	height: 18px;
 	content: "\2713";
 	font-family: Montserrat-700, sans-serif;
 	font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
-    font-size: 15px;
     color: #011C40;
     text-align: center;
     line-height: 15px;
@@ -898,7 +904,8 @@ color: #b8b8b8;
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	left: 311px;
+	left: 306px;
+	margin-top: -27px;
 }
 
 .social img:hover{
