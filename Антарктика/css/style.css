@@ -322,6 +322,7 @@ color: #b8b8b8;
 }
 
 .cruise{
+	position: relative;
 	width: 260px;
 	height: 386px;
 }
@@ -337,6 +338,10 @@ color: #b8b8b8;
 	font-size: 18px;
 	line-height: 150%;
 	align-items: center;
+}
+
+.cruises section{
+	height: 385px;
 }
 
 .astor{
@@ -573,7 +578,7 @@ color: #b8b8b8;
 	min-width: 1366px;
 	width: auto;
 	height: 555px;
-	margin-top: 120px;
+	margin-top: 152px;
 	background-image: url(../img/booking.jpg);
 	background-color: #87cefa;
 	background-position: center center;
@@ -1002,11 +1007,11 @@ color: #b8b8b8;
 }
 
  .address:before{
-	top: 3935px;
+	top: 3891px;
 }
 
 .geo-phone:before{
-	top: 3891px;
+	top: 3940px;
 }
 
 .geo:before{
@@ -1077,14 +1082,75 @@ color: #b8b8b8;
 }
 
  .address:before{
-	top: 3780px;
+	top: 3710px;
 }
 
 .geo-phone:before{
-	top: 3830px;
+	top: 3760px;
 }
 
 .geo:before{
-	top: 3850px;
+	top: 3770px;
+}
+}
+
+@media (min-width: 1600px){
+.info-el{
+	position: relative;
+	left: 33px;
+	top: -385px;
+}
+
+.info-astor{
+	position: relative;
+	left: 5px;
+	top: -385px;
+}
+
+.info-atlant{
+	position: relative;
+	left: 33px;
+	top: -385px;
+}
+
+.info-odis{
+	position: relative;
+	left: 33px;
+	top: -385px;
+}
+
+.info-olimp{
+	position: relative;
+	left: 5px;
+	top: -388px;
+}
+.info-avror{
+	position: relative;
+	left: 33px;
+	top: -388px;
+}
+
+.info-leon{
+	position: relative;
+	left: 33px;
+	top: -388px;
+}
+
+.info-min{
+	position: relative;
+	left: 33px;
+	top: -388px;
+}
+
+.address:before{
+	
+}
+
+.geo-phone:before{
+	top: 3760px;
+}
+
+.geo:before{
+	top: 3775px;
 }
 }
