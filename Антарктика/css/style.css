@@ -945,7 +945,8 @@ color: #b8b8b8;
 }
 
 @media (max-width: 1300px) {
-	.info-el{
+
+.info-el{
 	top: 2132px;
 }
 
@@ -981,6 +982,82 @@ color: #b8b8b8;
 .info-min{
 	left: 994px;
 	top: 2546px;
+}
+
+.info h3{
+	margin-top: 42px;
+	margin-bottom: 28px;
+	top: 35px;
+}
+
+.info-2 {
+	display: none;
+}
+
+.info:hover .info-2{
+	display: block;
+	position: absolute;
+	width: 234px;
+	height: 386px;
+	left: -34px;
+	top: -60px;
+	margin-top: 60px;
+	margin-left: 30px;
+	background-color: #011C40;
+	padding-left: 25px;
+}
+
+ .address:before{
+	top: 3891px;
+}
+
+.geo-phone:before{
+	top: 3940px;
+}
+
+.geo:before{
+	top: 3950px;
+}
+}
+
+@media (max-width: 900px){
+
+.info-el{
+	top: 2175px;
+}
+
+.info-astor{
+	left: 124px;
+	top: 2175px;
+}
+
+.info-atlant{
+	left: 704px;
+	top: 2175px;
+}
+
+.info-odis{
+	left: 994px;
+	top: 2175px;
+}
+
+.info-olimp{
+	left: 124px;
+	top: 2590px;
+}
+.info-avror{
+	left: 414px;
+	top: 2590px;
+}
+
+.info-leon{
+	left: 704px;
+	top: 2590px;
+}
+
+.info-min{
+	left: 994px;
+	top: 2590px;
 }
 
 .info h3{
