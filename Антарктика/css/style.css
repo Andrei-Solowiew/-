@@ -946,42 +946,55 @@ color: #b8b8b8;
 
 @media (max-width: 1300px) {
 
+.description h2{
+	margin-top: 187px;
+}
+
 .info-el{
-	top: 2132px;
+	position: relative;
+	top: -386px;
+	left: 35px;
 }
 
 .info-astor{
-	left: 124px;
-	top: 2132px;
+	position: relative;
+	left: 5px;
+	top: -386px;
 }
 
 .info-atlant{
-	left: 704px;
-	top: 2132px;
+	position: relative;
+	left: 35px;
+	top: -386px;
 }
 
 .info-odis{
-	left: 994px;
-	top: 2132px;
+	position: relative;
+	left: 35px;
+	top: -386px;
 }
 
 .info-olimp{
-	left: 124px;
-	top: 2546px;
+	position: relative;
+	left: 5px;
+	top: -386px;
 }
 .info-avror{
-	left: 414px;
-	top: 2546px;
+	position: relative;
+	left: 35px;
+	top: -386px;
 }
 
 .info-leon{
-	left: 704px;
-	top: 2546px;
+	position: relative;
+	left: 35px;
+	top: -386px;
 }
 
 .info-min{
-	left: 994px;
-	top: 2546px;
+	position: relative;
+	left: 35px;
+	top: -386px;
 }
 
 .info h3{
@@ -1020,158 +1033,7 @@ color: #b8b8b8;
 }
 }
 
-@media (max-width: 900px){
-
-.info-el{
-	top: 2175px;
-}
-
-.info-astor{
-	left: 124px;
-	top: 2175px;
-}
-
-.info-atlant{
-	left: 704px;
-	top: 2175px;
-}
-
-.info-odis{
-	left: 994px;
-	top: 2175px;
-}
-
-.info-olimp{
-	left: 124px;
-	top: 2590px;
-}
-.info-avror{
-	left: 414px;
-	top: 2590px;
-}
-
-.info-leon{
-	left: 704px;
-	top: 2590px;
-}
-
-.info-min{
-	left: 994px;
-	top: 2590px;
-}
-
-.info h3{
-	margin-top: 42px;
-	margin-bottom: 28px;
-	top: 35px;
-}
-
-.info-2 {
-	display: none;
-}
-
-.info:hover .info-2{
-	display: block;
-	position: absolute;
-	width: 234px;
-	height: 386px;
-	left: -34px;
-	top: -60px;
-	margin-top: 60px;
-	margin-left: 30px;
-	background-color: #011C40;
-	padding-left: 25px;
-}
-
- .address:before{
-	top: 3891px;
-}
-
-.geo-phone:before{
-	top: 3940px;
-}
-
-.geo:before{
-	top: 3950px;
-}
-}
-
-@media (min-width: 1400px) {
-	.info-el{
-	top: 2026px
-}
-
-.info-astor{
-	left: 124px;
-	top: 2026px
-}
-
-.info-atlant{
-	left: 704px;
-	top: 2026px
-}
-
-.info-odis{
-	left: 994px;
-	top: 2026px
-}
-
-.info-olimp{
-	left: 124px;
-	top: 2440px;
-}
-.info-avror{
-	left: 414px;
-	top: 2440px;
-}
-
-.info-leon{
-	left: 704px;
-	top: 2440px;
-}
-
-.info-min{
-	left: 994px;
-	top: 2440px;
-}
-
-.info h3{
-	margin-top: 42px;
-	margin-bottom: 28px;
-	top: 35px;
-}
-
-.info-2 {
-	display: none;
-}
-
-.info:hover .info-2{
-	display: block;
-	position: absolute;
-	width: 234px;
-	height: 386px;
-	left: -34px;
-	top: -60px;
-	margin-top: 60px;
-	margin-left: 30px;
-	background-color: #011C40;
-	padding-left: 25px;
-}
-
- .address:before{
-	top: 3710px;
-}
-
-.geo-phone:before{
-	top: 3760px;
-}
-
-.geo:before{
-	top: 3770px;
-}
-}
-
-@media (min-width: 1600px){
+@media (min-width: 1400px){
 .info-el{
 	position: relative;
 	left: 33px;
