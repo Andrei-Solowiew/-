@@ -195,7 +195,7 @@ color: #b8b8b8;
 	height: auto;
 	background-image: url(../img/advantages.jpg);
 	background-repeat: no-repeat;
-	background-color: #e3e3e3;
+	background-color: #ace7f2;
 	margin: 0;
 	margin-bottom: 108px;
 	padding-bottom: 105px;
@@ -678,6 +678,10 @@ color: #b8b8b8;
 	font-size: 0;
 }
 
+.checkbox-area label{
+	font-size: 0;
+}
+
 
 .booking-form-group input[type="text"]{
 	top: 125px;
@@ -736,6 +740,7 @@ color: #b8b8b8;
 	align-items: center;
 	color: #F9FBFD;
 	margin-bottom: 8px;
+	margin-left: 4px;
 }
 
 .button{
