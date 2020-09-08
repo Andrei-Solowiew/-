@@ -198,7 +198,6 @@ color: #b8b8b8;
 	background-color: #ace7f2;
 	margin: 0;
 	margin-bottom: 108px;
-	padding-bottom: 105px;
 	background-position: center center;
 	background-repeat: no-repeat;	
 	background-size: 100% 100%;
@@ -206,6 +205,10 @@ color: #b8b8b8;
 
 .advantages li{
 	list-style-type: none;
+}
+
+.advantages ul{
+	padding-bottom: 120px;
 }
 .advantages h2{
 	font-family: Montserrat-600, sans-serif;
@@ -697,7 +700,7 @@ color: #b8b8b8;
 
 .checkbox-area{
 	display: block;
-	margin-left: 50px;
+	margin-left: 45px;
 	margin-bottom: 23px;
 }
 
@@ -728,7 +731,7 @@ color: #b8b8b8;
     background-color: #F9FBFD;
 }
 
-.booking-form .consent{
+.checkbox-area .consent{
 	display: inline-block;
 	width: 279px;
 	vertical-align: middle;
@@ -740,7 +743,6 @@ color: #b8b8b8;
 	align-items: center;
 	color: #F9FBFD;
 	margin-bottom: 8px;
-	margin-left: 4px;
 }
 
 .button{
