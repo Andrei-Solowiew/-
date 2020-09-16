@@ -245,8 +245,6 @@ color: #b8b8b8;
 	color: #011C40;
 }
 
-
-
 .advantages-item-one{
 	width: 360px;
 	height: auto;
@@ -256,6 +254,7 @@ color: #b8b8b8;
 	background-position: 30px 30px;
 	background-repeat: no-repeat;
 	display: inline-block;
+	vertical-align: top;
 	margin: 0;
 	margin-top: 37px;
 	margin-left: 63px;
@@ -264,6 +263,7 @@ color: #b8b8b8;
 .advantages-item-one p{
 	width: 290px;
 	margin-bottom: 45px;
+
 }
 
 .advantages-item-two{
@@ -275,8 +275,10 @@ color: #b8b8b8;
 	background-position: 30px 34px;
 	background-repeat: no-repeat;
 	display: inline-block;
+	vertical-align: top;
 	margin: 0;
 	margin-left: 36px;
+	margin-top: 38px;
 }
 
 .advantages-item-two p{
@@ -294,6 +296,7 @@ color: #b8b8b8;
 	background-position: 30px 38px;
 	background-repeat: no-repeat;
 	display: inline-block;
+	vertical-align: top;
 	margin: 0;
 	margin-top: 37px;
 	margin-left: 40px;
@@ -666,7 +669,6 @@ color: #b8b8b8;
 .booking-form-group input:hover{
 	background-color: #e6e6e6;
 }
-
 
 .booking-form-group input:active{
 	background-color:  #b8b8b8;
