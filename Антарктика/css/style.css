@@ -209,6 +209,7 @@ color: #b8b8b8;
 
 .advantages ul{
 	padding-bottom: 120px;
+	display: flex;
 }
 .advantages h2{
 	font-family: Montserrat-600, sans-serif;
@@ -287,7 +288,6 @@ color: #b8b8b8;
 }
 
 .advantages-item-three{
-	position: absolute;
 	width: 360px;
 	height: auto;
 	background-color: #F9FBFD;
@@ -1030,15 +1030,15 @@ color: #b8b8b8;
 }
 
  .address:before{
-	top: 3891px;
+	top: 4080px;
 }
 
 .geo-phone:before{
-	top: 3940px;
+	top: 4128px;
 }
 
 .geo:before{
-	top: 3950px;
+	top: 4140px;
 }
 }
 
