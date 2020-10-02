@@ -299,7 +299,7 @@ color: #b8b8b8;
 	vertical-align: top;
 	margin: 0;
 	margin-top: 37px;
-	margin-left: 40px;
+	margin-left: 44px;
 }
 
 .advantages-item-three p{
@@ -871,13 +871,13 @@ color: #b8b8b8;
 }
 
 .page-footer{
-	display: block;
+	display: flex;
 	min-width: 1366px;
 	width: auto;
 	height: auto;
 	left: 0px;
 	margin-top: 119px;
-	background: #011C40;
+	background-color: #011C40;
 }
 
 
@@ -887,7 +887,9 @@ color: #b8b8b8;
 }
 
 .nav-bottom{
-	display: inline-block;
+	width: 768px;
+	display: flex;
+	flex-wrap: wrap;
 	vertical-align: top;
 	margin-left: 36px;
 	margin-top: 60px;
@@ -915,11 +917,10 @@ color: #b8b8b8;
 }
 
 .social{
-	position: relative;
 	display: inline-block;
 	vertical-align: middle;
-	left: 306px;
-	margin-top: -27px;
+	margin-left: 170px;
+	margin-top: 58px;
 }
 
 .social img:hover{
@@ -1042,6 +1043,38 @@ color: #b8b8b8;
 }
 }
 
+
+@media (max-width: 1200px) {
+
+ .address:before{
+	top: 4085px;
+}
+
+.geo-phone:before{
+	top: 4130px;
+}
+
+.geo:before{
+	top: 4185px;
+}
+}
+
+@media (max-width: 900px) {
+
+ .address:before{
+	top: 4125px;
+}
+
+.geo-phone:before{
+	top: 4170px;
+}
+
+.geo:before{
+	top: 4185px;
+}
+}
+
+
 @media (min-width: 1400px){
 .info-el{
 	position: relative;
@@ -1091,14 +1124,84 @@ color: #b8b8b8;
 }
 
 .address:before{
-	
+	top: 3780px;
 }
 
 .geo-phone:before{
-	top: 3760px;
+	top: 3830px;
 }
 
 .geo:before{
-	top: 3775px;
+	top: 3840px;
+}
+}
+
+@media (min-width: 1700px){
+	.address:before{
+	top: 3875px;
+}
+
+.geo-phone:before{
+	top: 3925px;
+}
+
+.geo:before{
+	top: 3930px;
+}
+}
+
+@media (min-width: 1800px){
+	.address:before{
+	top: 3925px;
+}
+
+.geo-phone:before{
+	top: 3975px;
+}
+
+.geo:before{
+	top: 3985px;
+}
+}
+
+@media (min-width: 2000px){
+	.address:before{
+	top: 4035px;
+}
+
+.geo-phone:before{
+	top: 4080px;
+}
+
+.geo:before{
+	top: 4095px;
+}
+}
+
+@media (min-width: 2600px){
+	.address:before{
+	top: 4360px;
+}
+
+.geo-phone:before{
+	top: 4410px;
+}
+
+.geo:before{
+	top: 4425px;
+}
+}
+
+@media (min-width: 4000px){
+	.address:before{
+	display: none;
+}
+
+.geo-phone:before{
+	display: none;
+}
+
+.geo:before{
+	display: none;
 }
 }
